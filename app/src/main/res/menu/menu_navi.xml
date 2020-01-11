@@ -17,4 +17,17 @@
         android:title="Report"
         android:icon="@android:drawable/ic_delete"
         android:id="@+id/menu_item_Report"/>
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:title="Call"
+                android:icon="@android:drawable/stat_sys_phone_call_on_hold"
+                android:id="@+id/menu_item_call"/>
+            <item
+                android:title="Send"
+                android:icon="@android:drawable/ic_menu_send"
+                android:id="@+id/menu_item_send"/>
+        </menu>
+
+    </item>
 </menu>
