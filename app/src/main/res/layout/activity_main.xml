@@ -20,12 +20,11 @@
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"/>
-
         </LinearLayout>
-
 
         <com.google.android.material.navigation.NavigationView
             android:id="@+id/navigation"
+            app:headerLayout="@layout/header_navi_layout"
             android:layout_gravity="left"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
